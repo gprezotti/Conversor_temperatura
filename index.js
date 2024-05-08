@@ -10,6 +10,6 @@ function numero() {
   }
   else
   {
-    alert("Você errou o número. O número sorteado foi " + numero_aleatorio)
+    alert("Você errou. O número sorteado foi " + numero_aleatorio)
   }
 }
