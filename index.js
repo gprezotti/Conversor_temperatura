@@ -5,8 +5,11 @@ function numero() {
   if (numero_informado == numero_aleatorio) {
     alert("Você acertou o número. Parabéns!!")
   }
+  else if ((numero_informado - numero_aleatorio == 1) || (numero_aleatorio - numero_informado == 1)) {
+    alert("Continue tentando, Você errou por um número! O número sorteado foi " + numero_aleatorio)
+  }
   else
   {
-    alert("Você errou o número. O número informado foi " + numero_aleatorio)
+    alert("Você errou o número. O número sorteado foi " + numero_aleatorio)
   }
 }
