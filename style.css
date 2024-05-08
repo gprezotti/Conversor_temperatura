@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px orange;
+  border-radius: 16px;
+  width: 31.4%;
+  height: 40.2%;
+  font-size: 50px;
+  box-shadow: 5px 5px 5px black;
+  background-color: orange;
+  color: white;
+}
+
+main:hover {
+  width: 25.1%;
+  height: 35.1%;
+  font-size: 40px;
+  box-shadow: none;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+}
