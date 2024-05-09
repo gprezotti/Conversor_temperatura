@@ -24,6 +24,7 @@ main {
   box-shadow: 5px 5px 5px black;
   background-color: orange;
   color: white;
+  transition: .4s;
 }
 
 main:hover {
@@ -31,6 +32,7 @@ main:hover {
   height: 240px;
   font-size: 40px;
   box-shadow: none;
+  cursor: pointer;
 }
 
 p {
